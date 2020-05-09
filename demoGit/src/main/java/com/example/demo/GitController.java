@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class GitController {
 	@RequestMapping(value="/")
 	public String display() {
-		return "Welcome to Git";
+		return "Welcome to Git This is my first git projct";
 	}
 }
